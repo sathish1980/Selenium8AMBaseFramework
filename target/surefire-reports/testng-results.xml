@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-02T08:33:00 IST" name="Suite" finished-at="2024-07-02T08:33:28 IST" duration-ms="27526">
+    <groups>
+    </groups>
+    <test started-at="2024-07-02T08:33:00 IST" name="Test" finished-at="2024-07-02T08:33:28 IST" duration-ms="27526">
+      <class name="TestCase.MakeMyTripSearchTestcase">
+        <test-method is-config="true" signature="OpenTheBrowser()[pri:0, instance:TestCase.MakeMyTripSearchTestcase@13e39c73]" started-at="2024-07-02T08:32:58 IST" name="OpenTheBrowser" finished-at="2024-07-02T08:33:00 IST" duration-ms="2321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenTheBrowser -->
+        <test-method is-config="true" signature="EnterURL()[pri:0, instance:TestCase.MakeMyTripSearchTestcase@13e39c73]" started-at="2024-07-02T08:33:00 IST" name="EnterURL" finished-at="2024-07-02T08:33:03 IST" duration-ms="2265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterURL -->
+        <test-method signature="SearchWithValidValues(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.MakeMyTripSearchTestcase@13e39c73]" started-at="2024-07-02T08:33:04 IST" name="SearchWithValidValues" data-provider="GetValidFlightSearchData" finished-at="2024-07-02T08:33:09 IST" duration-ms="5263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MAA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PNQ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchWithValidValues -->
+        <test-method is-config="true" signature="WriteInReport(org.testng.ITestResult)[pri:0, instance:TestCase.MakeMyTripSearchTestcase@13e39c73]" started-at="2024-07-02T08:33:09 IST" name="WriteInReport" finished-at="2024-07-02T08:33:09 IST" duration-ms="425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchWithValidValues status=SUCCESS method=MakeMyTripSearchTestcase.SearchWithValidValues(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.MakeMyTripSearchTestcase@13e39c73] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WriteInReport -->
+        <test-method signature="SearchWithValidValues(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.MakeMyTripSearchTestcase@13e39c73]" started-at="2024-07-02T08:33:09 IST" name="SearchWithValidValues" data-provider="GetValidFlightSearchData" finished-at="2024-07-02T08:33:16 IST" duration-ms="6454" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PNQ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MAA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchWithValidValues -->
+        <test-method is-config="true" signature="WriteInReport(org.testng.ITestResult)[pri:0, instance:TestCase.MakeMyTripSearchTestcase@13e39c73]" started-at="2024-07-02T08:33:16 IST" name="WriteInReport" finished-at="2024-07-02T08:33:16 IST" duration-ms="341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchWithValidValues status=SUCCESS method=MakeMyTripSearchTestcase.SearchWithValidValues(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.MakeMyTripSearchTestcase@13e39c73] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WriteInReport -->
+        <test-method signature="SearchWithValidValues(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.MakeMyTripSearchTestcase@13e39c73]" started-at="2024-07-02T08:33:16 IST" name="SearchWithValidValues" data-provider="GetValidFlightSearchData" finished-at="2024-07-02T08:33:22 IST" duration-ms="5668" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BLR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MAA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[27]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchWithValidValues -->
+        <test-method is-config="true" signature="WriteInReport(org.testng.ITestResult)[pri:0, instance:TestCase.MakeMyTripSearchTestcase@13e39c73]" started-at="2024-07-02T08:33:22 IST" name="WriteInReport" finished-at="2024-07-02T08:33:22 IST" duration-ms="322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchWithValidValues status=SUCCESS method=MakeMyTripSearchTestcase.SearchWithValidValues(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.MakeMyTripSearchTestcase@13e39c73] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WriteInReport -->
+        <test-method signature="SearchWithinValidValues(java.lang.String,java.lang.String)[pri:1, instance:TestCase.MakeMyTripSearchTestcase@13e39c73]" started-at="2024-07-02T08:33:22 IST" name="SearchWithinValidValues" data-provider="GetsameCityFlightSearchData" finished-at="2024-07-02T08:33:24 IST" duration-ms="1921" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MAA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MAA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchWithinValidValues -->
+        <test-method is-config="true" signature="WriteInReport(org.testng.ITestResult)[pri:0, instance:TestCase.MakeMyTripSearchTestcase@13e39c73]" started-at="2024-07-02T08:33:24 IST" name="WriteInReport" finished-at="2024-07-02T08:33:24 IST" duration-ms="249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchWithinValidValues status=SUCCESS method=MakeMyTripSearchTestcase.SearchWithinValidValues(java.lang.String,java.lang.String)[pri:1, instance:TestCase.MakeMyTripSearchTestcase@13e39c73] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WriteInReport -->
+        <test-method signature="SearchWithinValidValues(java.lang.String,java.lang.String)[pri:1, instance:TestCase.MakeMyTripSearchTestcase@13e39c73]" started-at="2024-07-02T08:33:24 IST" name="SearchWithinValidValues" data-provider="GetsameCityFlightSearchData" finished-at="2024-07-02T08:33:26 IST" duration-ms="1541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PNQ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PNQ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchWithinValidValues -->
+        <test-method is-config="true" signature="WriteInReport(org.testng.ITestResult)[pri:0, instance:TestCase.MakeMyTripSearchTestcase@13e39c73]" started-at="2024-07-02T08:33:26 IST" name="WriteInReport" finished-at="2024-07-02T08:33:26 IST" duration-ms="325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchWithinValidValues status=SUCCESS method=MakeMyTripSearchTestcase.SearchWithinValidValues(java.lang.String,java.lang.String)[pri:1, instance:TestCase.MakeMyTripSearchTestcase@13e39c73] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WriteInReport -->
+        <test-method signature="SearchWithinValidValues(java.lang.String,java.lang.String)[pri:1, instance:TestCase.MakeMyTripSearchTestcase@13e39c73]" started-at="2024-07-02T08:33:26 IST" name="SearchWithinValidValues" data-provider="GetsameCityFlightSearchData" finished-at="2024-07-02T08:33:28 IST" duration-ms="1548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BLR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BLR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchWithinValidValues -->
+        <test-method is-config="true" signature="WriteInReport(org.testng.ITestResult)[pri:0, instance:TestCase.MakeMyTripSearchTestcase@13e39c73]" started-at="2024-07-02T08:33:28 IST" name="WriteInReport" finished-at="2024-07-02T08:33:28 IST" duration-ms="222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchWithinValidValues status=SUCCESS method=MakeMyTripSearchTestcase.SearchWithinValidValues(java.lang.String,java.lang.String)[pri:1, instance:TestCase.MakeMyTripSearchTestcase@13e39c73] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WriteInReport -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestCase.MakeMyTripSearchTestcase@13e39c73]" started-at="2024-07-02T08:33:28 IST" name="TearDown" finished-at="2024-07-02T08:33:28 IST" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- TestCase.MakeMyTripSearchTestcase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
